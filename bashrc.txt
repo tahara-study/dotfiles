@@ -146,3 +146,5 @@ alias sshnavio='ssh pi@navio.local'
 alias sshrhex='ssh ht@raspi-ubuntu16.local'
 alias sshros='ssh ht@raspi3ROS.local'
 alias sshjetson='ssh nvidia@192.168.0.4'
+
+alias rosreload='source /opt/ros/kinetic/setup.bash'
