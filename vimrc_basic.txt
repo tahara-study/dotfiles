@@ -25,8 +25,7 @@ set smartindent                                 " 改行時に入力された末
 set autoindent                                  " 改行時に前の行のインデントを継続する
 set whichwrap+=h,l,<,>,[,],b,s                  " 行頭行末の左右移動で行をまたぐ
 set backspace=indent,eol,start                  " バックスペースの影響範囲に制限を設けない
-set scrolloff=4		                         	" 上下8行の視野確保
-set sidescrolloff=8                            	" 左右スクロール時の視野確保
+set scrolloff=4		                         			" 上下8行の視野確保
 
 
 " [setting]---------------------------------------
