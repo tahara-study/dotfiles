@@ -17,16 +17,16 @@ set hlsearch                                    " 検索文字列をハイライ
 
 
 " [edit]------------------------------------------
-set tabstop=4                                   " タブ幅
 set expandtab                                   " タブ文字の代わりに半角スペース (Python向け)
-set softtabstop=4                               " 連続した空白に対してタブキーやバックスペースでカーソルが動く幅
-set shiftwidth=4                                " 行頭でのタブ文字の表示幅
+set tabstop=2                                   " タブ幅
+set softtabstop=2                               " 連続した空白に対してタブキーやバックスペースでカーソルが動く幅
+set shiftwidth=2                                " 行頭でのタブ文字の表示幅
 set smartindent                                 " 改行時に入力された末尾に合わせて次の行のインデントを増減する
 set autoindent                                  " 改行時に前の行のインデントを継続する
 set whichwrap+=h,l,<,>,[,],b,s                  " 行頭行末の左右移動で行をまたぐ
 set backspace=indent,eol,start                  " バックスペースの影響範囲に制限を設けない
-set scrolloff=8                                 " 上下8行の視野確保
-set sidescrolloff=16                            " 左右スクロール時の視野確保
+set scrolloff=4		                         	" 上下8行の視野確保
+set sidescrolloff=8                            	" 左右スクロール時の視野確保
 
 
 " [setting]---------------------------------------
@@ -48,3 +48,4 @@ set clipboard=unnamed,unnamedplus               " OSのクリップモードを�
 autocmd FileType python setl autoindent
 autocmd FileType python setl smartindent cinwords=if,elif,else,for,while,try,except,finally,def,class
 autocmd FileType python setl tabstop=8 expandtab shiftwidth=4 softtabstop=4
+
