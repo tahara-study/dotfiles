@@ -120,6 +120,8 @@ fi
 #-------------------------------------------------------------
 HISTSIZE=100000
 
+alias cdgit='cd ~/Dropbox/git_local'
+
 source /opt/ros/kinetic/setup.bash
 source ~/catkin_ws/devel/setup.bash
 
@@ -140,7 +142,6 @@ export ROS_MASTER_URI=http://X270.local:11311
 alias cw='cd ~/catkin_ws'
 alias cs='cd ~/catkin_ws/src'
 alias cm='cd ~/catkin_ws && catkin_make'
-alias setjoy='rosparam set joy_node/dev "/dev/input/js1"'
 
 alias sshnavio='ssh pi@navio.local'
 alias sshrhex='ssh ht@raspi-ubuntu16.local'
@@ -148,3 +149,5 @@ alias sshros='ssh ht@raspi3ROS.local'
 alias sshjetson='ssh nvidia@192.168.0.4'
 
 alias rosreload='source /opt/ros/kinetic/setup.bash'
+
+alias setjoy='rosparam set joy_node/dev "/dev/input/js1"'
