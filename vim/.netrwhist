@@ -1,0 +1,11 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =9
+let g:netrw_dirhist_1='/home/tahara/my_yp_spur'
+let g:netrw_dirhist_2='/home/tahara/catkin_ws/src/my_camera_stream/launch'
+let g:netrw_dirhist_3='/home/tahara/my_yp_spur'
+let g:netrw_dirhist_4='/home/tahara/catkin_ws/src/ardone_auto_move_software/launch'
+let g:netrw_dirhist_5='/home/tahara/my_yp_spur'
+let g:netrw_dirhist_6='/home/tahara/catkin_ws/src/ardone_auto_move_software/param'
+let g:netrw_dirhist_7='/home/tahara/catkin_ws/src/ardone_auto_move_software/launch'
+let g:netrw_dirhist_8='/home/tahara/catkin_ws/src/convert_moving_laser_to_pointcloud/launch'
+let g:netrw_dirhist_9='/home/tahara/catkin_ws/src/detect_puddle_area'
